@@ -115,45 +115,52 @@
         </article>
       </section>
 
-      <section class="section" id="products">
+      <section class="shop-section" id="products">
         <div class="section-title-row">
           <div>
             <span class="section-kicker">Product</span>
-            <h2>產品採購分類</h2>
+            <h2>產品採購平台</h2>
           </div>
           <a class="text-link" href="#quote">需要批量採購？索取報價</a>
         </div>
-        <div class="category-grid">
-          <article class="category-card">
-            <span class="category-icon">PC</span>
-            <h3>電腦及筆記簿電腦</h3>
-            <p>桌上電腦、筆記簿電腦、迷你主機、工作站及商用電腦。</p>
-          </article>
-          <article class="category-card">
-            <span class="category-icon">PR</span>
-            <h3>打印機及耗材</h3>
-            <p>鐳射打印機、噴墨打印機、標籤機、碳粉、墨盒及紙張。</p>
-          </article>
-          <article class="category-card">
-            <span class="category-icon">DP</span>
-            <h3>顯示及會議設備</h3>
-            <p>顯示器、投影、互動屏幕、會議鏡頭及視訊配件。</p>
-          </article>
-          <article class="category-card" id="network">
-            <span class="category-icon">NW</span>
-            <h3>網絡設備</h3>
-            <p>路由器、交換器、防火牆、NAS、網線、Wi-Fi 延伸及 IP-CAM。</p>
-          </article>
-          <article class="category-card">
-            <span class="category-icon">AC</span>
-            <h3>周邊配件</h3>
-            <p>鍵盤、滑鼠、USB Hub、充電器、線材、儲存裝置及電源配件。</p>
-          </article>
-          <article class="category-card">
-            <span class="category-icon">SW</span>
-            <h3>軟件及授權</h3>
-            <p>辦公室軟件、防毒、備份、設計工具及商用授權查詢。</p>
-          </article>
+        <div class="shop-layout">
+          <aside class="category-sidebar" aria-label="商品分類">
+            <h3>PRODUCT</h3>
+            <a href="#computer"><strong>Computer</strong><span>Notebook / Desktop / Mini PC</span></a>
+            <a href="#printer"><strong>Printer</strong><span>Laser / Ink / Toner</span></a>
+            <a href="#display"><strong>Monitor</strong><span>Display / Projector / Meeting</span></a>
+            <a href="#network"><strong>Network</strong><span>Router / Switch / NAS</span></a>
+            <a href="#accessories"><strong>Peripherals</strong><span>Keyboard / Mouse / Webcam</span></a>
+            <a href="#software"><strong>Software</strong><span>Office / Antivirus / Licence</span></a>
+          </aside>
+
+          <div class="shop-main">
+            <div class="promo-banner">
+              <div>
+                <span>WELLNET 企業採購</span>
+                <strong>電腦、網絡及辦公設備批量報價</strong>
+              </div>
+              <a href="#quote">立即索取報價</a>
+            </div>
+
+            <div class="category-grid">
+              <article class="category-card" id="computer">
+                <span class="category-icon">PC</span>
+                <h3>電腦及筆記簿電腦</h3>
+                <p>桌上電腦、筆記簿電腦、迷你主機、工作站及商用電腦。</p>
+              </article>
+              <article class="category-card" id="printer">
+                <span class="category-icon">PR</span>
+                <h3>打印機及耗材</h3>
+                <p>鐳射打印機、噴墨打印機、標籤機、碳粉、墨盒及紙張。</p>
+              </article>
+              <article class="category-card" id="display">
+                <span class="category-icon">DP</span>
+                <h3>顯示及會議設備</h3>
+                <p>顯示器、投影、互動屏幕、會議鏡頭及視訊配件。</p>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -170,46 +177,138 @@
           </div>
         </div>
 
-        <div class="product-grid">
+        <div class="product-grid dense-products">
           <article class="product-card">
             <span class="product-tag">商用推薦</span>
-            <div class="product-visual">NB</div>
-            <h3>商用筆記簿電腦採購</h3>
-            <p>適合辦公、外勤及混合工作團隊，可按預算及數量配套建議。</p>
+            <img src="./assets/products/notebook.svg" alt="商用筆記簿電腦" />
+            <h3>商用筆記簿電腦 14吋</h3>
+            <p class="sku">#WL-NB-1408 · 16GB / 512GB SSD</p>
             <div class="product-meta">
-              <span>可報價</span>
-              <strong>按需求查詢</strong>
+              <span class="stock in-stock">In Stock</span>
+              <strong>HK$5,980</strong>
             </div>
+            <button type="button" class="quote-button">加入報價</button>
           </article>
           <article class="product-card">
-            <span class="product-tag">網絡升級</span>
-            <div class="product-visual">WiFi</div>
-            <h3>Wi-Fi 6 / 7 網絡設備</h3>
-            <p>路由器、AP、交換器及網線配置，適合辦公室及店舖改善訊號。</p>
+            <span class="product-tag">現貨</span>
+            <img src="./assets/products/desktop.svg" alt="商用桌上電腦" />
+            <h3>商用桌上電腦套裝</h3>
+            <p class="sku">#WL-DT-2600 · i5 / 16GB / 1TB</p>
             <div class="product-meta">
-              <span>現場評估</span>
-              <strong>可安排</strong>
+              <span class="stock in-stock">In Stock</span>
+              <strong>HK$4,890</strong>
             </div>
+            <button type="button" class="quote-button">加入報價</button>
           </article>
           <article class="product-card">
-            <span class="product-tag">辦公耗材</span>
-            <div class="product-visual">Print</div>
-            <h3>打印機及碳粉墨盒</h3>
-            <p>按打印量、維護成本及空間限制，建議合適的打印及耗材方案。</p>
+            <span class="product-tag">Promotion</span>
+            <img src="./assets/products/router.svg" alt="Wi-Fi 路由器" />
+            <h3>Wi-Fi 6 商用路由器</h3>
+            <p class="sku">#WL-RT-AX1800 · Dual Band</p>
             <div class="product-meta">
-              <span>門市 / 配送</span>
-              <strong>可查詢</strong>
+              <span class="stock in-stock">In Stock</span>
+              <strong>HK$699</strong>
             </div>
+            <button type="button" class="quote-button">加入報價</button>
           </article>
           <article class="product-card">
-            <span class="product-tag">資料儲存</span>
-            <div class="product-visual">NAS</div>
-            <h3>NAS 及備份設備</h3>
-            <p>集中檔案、備份及權限管理，配合中小企日常資料保護需要。</p>
+            <span class="product-tag">企業網絡</span>
+            <img src="./assets/products/switch.svg" alt="24 Port 交換器" />
+            <h3>24 Port Gigabit Switch</h3>
+            <p class="sku">#WL-SW-24G · Rackmount</p>
             <div class="product-meta">
-              <span>部署支援</span>
-              <strong>可提供</strong>
+              <span class="stock orderable">Orderable</span>
+              <strong>HK$1,280</strong>
             </div>
+            <button type="button" class="quote-button">加入報價</button>
+          </article>
+          <article class="product-card">
+            <span class="product-tag">辦公打印</span>
+            <img src="./assets/products/printer.svg" alt="鐳射打印機" />
+            <h3>Mono Laser Printer</h3>
+            <p class="sku">#WL-PR-L300 · USB / LAN</p>
+            <div class="product-meta">
+              <span class="stock in-stock">In Stock</span>
+              <strong>HK$1,490</strong>
+            </div>
+            <button type="button" class="quote-button">加入報價</button>
+          </article>
+          <article class="product-card">
+            <span class="product-tag">4K Display</span>
+            <img src="./assets/products/monitor.svg" alt="4K 顯示器" />
+            <h3>27吋 4K 商用顯示器</h3>
+            <p class="sku">#WL-MN-274K · HDMI / USB-C</p>
+            <div class="product-meta">
+              <span class="stock in-stock">In Stock</span>
+              <strong>HK$2,180</strong>
+            </div>
+            <button type="button" class="quote-button">加入報價</button>
+          </article>
+          <article class="product-card">
+            <span class="product-tag">資料備份</span>
+            <img src="./assets/products/nas.svg" alt="NAS 網絡儲存" />
+            <h3>2-Bay NAS 網絡儲存</h3>
+            <p class="sku">#WL-NS-2BAY · RAID / Backup</p>
+            <div class="product-meta">
+              <span class="stock orderable">Orderable</span>
+              <strong>HK$2,990</strong>
+            </div>
+            <button type="button" class="quote-button">加入報價</button>
+          </article>
+          <article class="product-card">
+            <span class="product-tag">電源保護</span>
+            <img src="./assets/products/ups.svg" alt="UPS 不斷電系統" />
+            <h3>Smart UPS 1000VA</h3>
+            <p class="sku">#WL-UP-1000 · Office Backup</p>
+            <div class="product-meta">
+              <span class="stock orderable">Orderable</span>
+              <strong>HK$1,680</strong>
+            </div>
+            <button type="button" class="quote-button">加入報價</button>
+          </article>
+          <article class="product-card">
+            <span class="product-tag">周邊</span>
+            <img src="./assets/products/keyboard-mouse.svg" alt="鍵盤滑鼠套裝" />
+            <h3>無線鍵盤滑鼠套裝</h3>
+            <p class="sku">#WL-KM-240 · Chinese Layout</p>
+            <div class="product-meta">
+              <span class="stock in-stock">In Stock</span>
+              <strong>HK$249</strong>
+            </div>
+            <button type="button" class="quote-button">加入報價</button>
+          </article>
+          <article class="product-card">
+            <span class="product-tag">會議設備</span>
+            <img src="./assets/products/webcam.svg" alt="會議攝像頭" />
+            <h3>Full HD 會議攝像頭</h3>
+            <p class="sku">#WL-CAM-1080 · USB Webcam</p>
+            <div class="product-meta">
+              <span class="stock in-stock">In Stock</span>
+              <strong>HK$420</strong>
+            </div>
+            <button type="button" class="quote-button">加入報價</button>
+          </article>
+          <article class="product-card">
+            <span class="product-tag">Storage</span>
+            <img src="./assets/products/ssd.svg" alt="Portable SSD" />
+            <h3>Portable SSD 1TB</h3>
+            <p class="sku">#WL-SSD-1T · USB-C 10Gbps</p>
+            <div class="product-meta">
+              <span class="stock in-stock">In Stock</span>
+              <strong>HK$788</strong>
+            </div>
+            <button type="button" class="quote-button">加入報價</button>
+          </article>
+          <article class="product-card">
+            <span class="product-tag">Software</span>
+            <img src="./assets/products/software.svg" alt="辦公軟件授權" />
+            <h3>辦公軟件年度授權</h3>
+            <p class="sku">#WL-SW-O365 · Business Licence</p>
+            <div class="product-meta">
+              <span class="stock orderable">Orderable</span>
+              <strong>HK$780 / 年</strong>
+            </div>
+            <button type="button" class="quote-button">加入報價</button>
           </article>
         </div>
       </section>
