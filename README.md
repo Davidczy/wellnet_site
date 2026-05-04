@@ -10,6 +10,7 @@
 - `assets/wellnet-logo.svg`：本地 SVG logo
 - `assets/network-hero.svg`：本地首頁視覺素材
 - `assets/products/*.svg`：本地商品圖片
+- `assets/products-real/*`：真實商品 / 設備照片
 - `*.pdf`：WELLNET 公司文件
 
 ## 本地預覽
@@ -24,7 +25,7 @@
 九龍灣宏開道15號九龍灣工業中心地下5號B舖
 ```
 
-如需修改產品分類、精選採購項目、商品價格、服務內容、聯絡電話或電郵，可直接編輯 `index.html` 對應區塊。商品圖片位於 `assets/products`。
+如需修改產品分類、精選採購項目、商品價格、服務內容、聯絡電話或電郵，可直接編輯 `index.html` 對應區塊。真實商品圖片位於 `assets/products-real`，來源記錄在 `assets/products-real/SOURCES.md`。
 
 ## 部署
 
